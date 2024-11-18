@@ -26,9 +26,7 @@ function Single() {
 			})
 		}
 	}, [accessToken])
-
 	// console.log(singleMusic);
-
 	return (
 		<div className='singlePage-music h-[100vh]'>
 			<NavigateBtn bg={"bg-[#DDF628]"} shadow={"shadow-[#DDF628]"} />
@@ -44,5 +42,4 @@ function Single() {
 		</div>
 	)
 }
-
 export default Single

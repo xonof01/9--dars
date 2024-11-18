@@ -10,9 +10,9 @@ function useAuth(code) {
 			setAccessToken(res.data.accessToken)
 			history.pushState({}, null, "/")
 		})
-		// .catch(() => {
-		// 	location = "/"
-		// })
+		.catch(err => {
+			location = "/"
+		 })
 	}, [])
 }
 
