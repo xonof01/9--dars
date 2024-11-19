@@ -8,7 +8,7 @@ import SpotifyWebPlayer from 'react-spotify-web-playback'
 
 function Dashboard({ code }) {
 	const getCode = useAuth(code)
-	const { accessToken, play, setPlaying, playing } = useContext(Context)
+	const { accessToken, play, setPlaying, playing } = useContext(Context);
 	return (
 		<div className='flex justify-between relative h-[100vh]'>
 			<Navbar />
